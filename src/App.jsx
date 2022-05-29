@@ -1,12 +1,17 @@
-import './App.css';
-import Statistics from './components/statistics/Statistics';
+import "./App.css";
+import Statistics from "./components/statistics/Statistics";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <Statistics good={0} neutral={0} bad={0} total={0} positivePercentage={0}/>
-        
+        <Statistics
+          good={0}
+          neutral={0}
+          bad={0}
+          total={0}
+          positivePercentage={0}
+        />
       </header>
     </div>
   );
